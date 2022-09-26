@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
+
+body {
+  /*este font se llama Aboreto*/
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: 35px;
+  /* padding: 100px 100px 100px 100px; */
+  background-color: cyan;
+}
+
+header {
+  position: relative;
+  background-color: deeppink;
+  border: 8px solid purple;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+}
+
+.logo_navbar {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+}
+
+/*p{
+    color: darkgreen;
+}
+*/
+
+p {
+  color: black;
+  /* margin: 20px 20px 20px 30px; */
+  margin: 1rem 1rem 1rem 2.5rem;
+  border: none purple;
+}
+
+footer {
+  border-color: purple;
+  background-color: deeppink;
+  text-align: center;
+  margin-top: 20px;
+  border: 5px purple groove;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer_text {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 4rem;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+}
+
+/* a {
+  text-decoration: none;
+  background-color:red;
+  padding: 10px 20px 10px 20px;
+  border: groove purple;
+  color: white;
+} */
+
+.a_bepart {
+  border: none;
+  background-color: none;
+}
+.logo_bepart {
+  border: groove purple;
+  height: 50px;
+  width: 50px;
+}
+
+.menu {
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+}
+
+img {
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-left: 100;
+  background-color: rgba(140, 0, 255, 0.712);
+  margin-top: 5px;
+}
+
+h2 {
+  color: lime;
+  font-size: calc(1.5rem + 3vh);
+}
+main {
+  background-color: lime;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-right: 20px;
+  padding-left: 20px; */
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+div {
+  background-color: deeppink;
+  padding: 50px;
+}
+
+.main_contact {
+  background-color: lime;
+}
+
+.parrafo {
+  color: black;
+  font-weight: bolder;
+  border: 8px solid purple;
+  background-color: deeppink;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.img_aboutus {
+  height: 350px;
+  width: 250px;
+}
+
+.img_main {
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+}
+
+.link_footer {
+  text-decoration: none;
+  background-color: none;
+}
+
+ul {
+  padding-top: 5vh;
+}
+
+.video_index {
+  margin-top: 4em;
+  margin-right: 2em;
+}
