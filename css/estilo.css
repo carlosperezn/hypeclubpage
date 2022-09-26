@@ -4,7 +4,6 @@ body {
   /*este font se llama Aboreto*/
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-size: 35px;
-  /* padding: 100px 100px 100px 100px; */
   background-color: cyan;
 }
 
@@ -20,16 +19,11 @@ nav {
 }
 
 .logo_navbar {
-  width: 300px;
-  height: 100px;
+  width: 12vw;
+  height: 7vh;
   margin-bottom: 2rem;
   margin-left: 0.5rem;
 }
-
-/*p{
-    color: darkgreen;
-}
-*/
 
 p {
   color: black;
@@ -61,14 +55,6 @@ li {
   font-weight: bold;
   color: white;
 }
-
-/* a {
-  text-decoration: none;
-  background-color:red;
-  padding: 10px 20px 10px 20px;
-  border: groove purple;
-  color: white;
-} */
 
 .a_bepart {
   border: none;
@@ -109,8 +95,8 @@ main {
   background-color: lime;
   padding-top: 20px;
   padding-bottom: 20px;
-  /* padding-right: 20px;
-  padding-left: 20px; */
+  padding-right: 20px;
+  padding-left: 20px;
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
@@ -135,14 +121,14 @@ div {
 }
 
 .img_aboutus {
-  height: 350px;
-  width: 250px;
+  width: 20vw;
+  height: 18vh;
 }
 
 .img_main {
-  width: 150px;
-  height: 200px;
-  margin: 10px;
+  width: 11vw;
+  height: 12vh;
+  /* margin: 0.1rem; */
 }
 
 .link_footer {
@@ -155,6 +141,28 @@ ul {
 }
 
 .video_index {
-  margin-top: 4em;
-  margin-right: 2em;
+  margin-top: 8vh;
+  margin-right: 3vw;
+  height: 20vh;
+  width: 12vw;
+}
+
+.follow_us {
+  color: cyan;
+  font-size: calc(1.5rem + 3vh);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
 }
