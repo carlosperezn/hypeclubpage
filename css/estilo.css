@@ -90,7 +90,14 @@ img {
 h2 {
   color: lime;
   font-size: calc(1.5rem + 3vh);
+  transition: 1s transform linear;
 }
+
+h2:hover{
+  transform: rotate(360deg);
+  transition: 1s transform linear;
+}
+
 main {
   background-color: lime;
   padding-top: 20px;
@@ -119,50 +126,81 @@ div {
   text-align: center;
   padding-bottom: 15px;
 }
-
-.img_aboutus {
-  width: 20vw;
-  height: 18vh;
-}
-
-.img_main {
-  width: 11vw;
-  height: 12vh;
-  /* margin: 0.1rem; */
-}
-
 .link_footer {
   text-decoration: none;
   background-color: none;
 }
-
 ul {
   padding-top: 5vh;
 }
-
-.video_index {
-  margin-top: 8vh;
-  margin-right: 3vw;
-  height: 20vh;
-  width: 12vw;
+footer{
+  radial-gradient(circle, rgba(85,196,62,1) 16%, rgba(200,42,163,1) 32%, rgba(121,9,73,1) 42%, rgba(0,255,239,1) 69%) !important;
 }
+.video_index {
 
+  height: 22vh;
+  width: 17vw;
+}
+.video_aboutus{
+  height: 22vh;
+  width: 17vw;
+}
+.texto_trasparente1 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 94, 121, 1) 44%,
+    rgba(0, 255, 239, 1) 69%
+  );
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.texto_trasparente2 {
+  background-image: radial-gradient(circle, rgba(85,196,62,1) 16%, rgba(32,2,45,1) 32%, rgba(121,9,73,1) 42%, rgba(0,255,239,1) 69%);
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .follow_us {
   color: cyan;
   font-size: calc(1.5rem + 3vh);
 }
-
-@media (min-width: 576px) {
+.animacion {
+  position: relative;
+  background-color: red;
+  animation-name: animacion_hype; 
+  animation-duration: 3s;
 }
-
+/* MEDIAQUERIES */
+@media (min-width: 576px) {  
+  .texto_trasparente {
+  background-image: linear-gradient(90deg, rgba(85,196,62,1) 18%, rgba(32,2,45,1) 39%, rgba(121,9,73,1) 61%, rgba(0,255,239,1) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text ;
+}
 @media (min-width: 768px) {
+  .texto_trasparente {
+    background-image: linear-gradient(90deg, rgba(85,196,62,1) 18%, rgba(32,2,45,1) 39%, rgba(121,9,73,1) 61%, rgba(0,255,239,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text ;
 }
-
 @media (min-width: 992px) {
+  
 }
-
 @media (min-width: 1200px) {
 }
-
 @media (min-width: 1400px) {
+}
+
+/* ANIMACIONES */
+
+@keyframes animacion_hype {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:50px; top:50px;}
+  50%  {background-color:blue; left:-50px; top:50px;}
+  75%  {background-color:green; right:50px; top:50px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
