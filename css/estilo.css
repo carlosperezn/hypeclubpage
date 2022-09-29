@@ -34,7 +34,7 @@ p {
 
 footer {
   border-color: purple;
-  background-color: deeppink;
+  background-image: linear-gradient(0deg, rgba(255,20,147,1) 42%, rgba(0,255,239,1) 69%);
   text-align: center;
   margin-top: 20px;
   border: 5px purple groove;
@@ -93,6 +93,10 @@ h2 {
   transition: 1s transform linear;
 }
 
+.titulos{
+  font-size: calc(1.5rem + 3vh);
+}
+
 h2:hover{
   transform: rotate(360deg);
   transition: 1s transform linear;
@@ -133,8 +137,8 @@ div {
 ul {
   padding-top: 5vh;
 }
-footer{
-  radial-gradient(circle, rgba(85,196,62,1) 16%, rgba(200,42,163,1) 32%, rgba(121,9,73,1) 42%, rgba(0,255,239,1) 69%) !important;
+.footer_gradiente{
+  radial-gradient(circle, rgba(85,196,62,1) 16%, rgba(200,42,163,1) 32%, rgba(121,9,73,1) 42%, rgba(0,255,239,1) 69%);
 }
 .video_index {
 
