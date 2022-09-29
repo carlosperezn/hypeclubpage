@@ -93,6 +93,11 @@ h2 {
   transition: 1s transform linear;
 }
 
+.dj_title {
+  color: black;
+  font-size: calc(3rem + 5vh);
+}
+
 .titulos{
   font-size: calc(1.5rem + 3vh);
 }
@@ -115,9 +120,11 @@ main {
 
 div {
   background-color: deeppink;
-  padding: 50px;
 }
 
+.card-container {
+  padding: 0 100px;
+}
 .main_contact {
   background-color: lime;
 }
@@ -144,10 +151,16 @@ ul {
 
   height: 22vh;
   width: 17vw;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+  justify-content: center;
 }
 .video_aboutus{
   height: 22vh;
   width: 17vw;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+  justify-content: center;
 }
 .texto_trasparente1 {
   background-image: linear-gradient(
@@ -170,6 +183,11 @@ ul {
   color: cyan;
   font-size: calc(1.5rem + 3vh);
 }
+
+.card-img-top {
+  height: 400px;
+}
+
 .animacion {
   position: relative;
   background-color: red;
