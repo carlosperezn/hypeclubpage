@@ -1,0 +1,280 @@
+#body_index {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+#body_index header #logo_nav .logo_navbar {
+  width: 200px;
+  height: 120px;
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-top: 5px;
+}
+#body_index #main_index #text_index section .texto_trasparente1 {
+  font-size: 1.5rem !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(40, 218, 114)), color-stop(44%, rgb(9, 94, 121)), color-stop(69%, rgb(0, 255, 239)));
+  background-image: linear-gradient(to bottom, rgb(40, 218, 114) 0%, rgb(9, 94, 121) 44%, rgb(0, 255, 239) 69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#body_index #main_index #text_index section #carouselExampleSlidesOnly .img_carousel {
+  width: 360px !important;
+  height: 300px !important;
+}
+#body_index #main_index #text_index section h2 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(85, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 54, 152)), color-stop(80%, rgb(0, 255, 239)));
+  background-image: linear-gradient(90deg, rgb(85, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 54, 152) 61%, rgb(0, 255, 239) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 3rem;
+}
+#body_index #main_index #text_index section .texto_trasparente2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgb(40, 197, 218)), color-stop(69%, rgb(255, 0, 76)));
+  background-image: linear-gradient(to bottom, rgb(40, 197, 218) 44%, rgb(255, 0, 76) 69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.6rem;
+}
+#body_index #footer_index p {
+  font-size: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(194, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(194, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+}
+
+#body_aboutus1 {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+#body_aboutus1 header #logo_nav2 .logo_navbar {
+  width: 200px;
+  height: 120px;
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-top: 5px;
+}
+#body_aboutus1 #main_aboutus #text_aboutus #section1_aboutus #parrafo_aboutus .tittle_style {
+  font-size: 3rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(194, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(194, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#body_aboutus1 #main_aboutus #text_aboutus #section1_aboutus #parrafo_aboutus .texto_trasparente3 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(85, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 54, 152)), color-stop(80%, rgb(0, 255, 239)));
+  background-image: linear-gradient(90deg, rgb(85, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 54, 152) 61%, rgb(0, 255, 239) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+}
+#body_aboutus1 #main_aboutus #text_aboutus #section1_aboutus #parrafo_aboutus .text_1 {
+  background-image: linear-gradient(45deg, rgb(85, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 54, 152) 61%, rgb(0, 255, 239) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+#body_aboutus1 #main_aboutus #text_aboutus #section2_aboutus {
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+}
+#body_aboutus1 #main_aboutus #text_aboutus #section2_aboutus .video_aboutus {
+  width: 360px;
+  height: 250px;
+}
+#body_aboutus1 #main_aboutus #text_aboutus #section2_aboutus .img_carousel2 {
+  width: 50vw;
+  height: 300px;
+}
+#body_aboutus1 .footer_degrant {
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(194, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(194, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#body_djs {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+#body_djs header #log_nav3 .logo_navbar {
+  width: 200px;
+  height: 120px;
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-top: 5px;
+}
+#body_djs #main_djs .dj_title {
+  font-size: 3rem;
+  background-image: linear-gradient(45deg, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#body_djs #main_djs #card_djs1 #div_card1 .img_carousel3 {
+  height: 300px !important;
+}
+#body_djs #main_djs #card_djs1 #div_card1 .card1 {
+  height: 250px !important;
+}
+#body_djs #main_djs #card_djs2 #div_card2 #card_djs2 .img_carousel3 {
+  height: 300px;
+}
+#body_djs #main_djs #card_djs2 #div_card2 #card_djs2 .card2 {
+  height: 250px;
+}
+#body_djs #card_section2 #div_card3 #card_djs3 .img_carousel3 {
+  height: 300px;
+}
+#body_djs #card_section2 #div_card3 #card_djs3 .card2 {
+  height: 250px;
+}
+#body_djs #card_section2 #card_djs4 #div_card4 .img_carousel3 {
+  height: 300px;
+}
+#body_djs .footer_degrant {
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(194, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(194, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#body_bepart {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+#body_bepart header #log_nav4 .logo_navbar {
+  width: 200px;
+  height: 120px;
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-top: 5px;
+}
+#body_bepart #main_bepart .tittle_style {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(233, 20, 197)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(26, 228, 53)), color-stop(80%, rgb(228, 196, 15)));
+  background-image: linear-gradient(90deg, rgb(233, 20, 197) 18%, rgb(135, 14, 187) 39%, rgb(26, 228, 53) 61%, rgb(228, 196, 15) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+}
+#body_bepart #main_bepart p {
+  background-image: linear-gradient(45deg, rgb(231, 235, 33) 18%, rgb(135, 14, 187) 39%, rgb(228, 54, 152) 61%, rgb(0, 255, 239) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+#body_bepart #main_bepart h3 {
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(27, 216, 122)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(27, 216, 122) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#body_bepart #main_bepart .logo_bepart {
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-top: 5px;
+  height: 50px;
+  width: 50px;
+}
+#body_bepart .footer_degrant {
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(194, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(194, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#body_contact {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+#body_contact header #log_nav5 .logo_navbar {
+  width: 200px;
+  height: 120px;
+  padding: 3px 3px 3px 3px;
+  border-top: yellow;
+  border-right: blue;
+  border-bottom: red;
+  border-left: green;
+  border-style: groove;
+  margin-top: 5px;
+}
+#body_contact #main_contact div p {
+  background-image: linear-gradient(45deg, rgb(231, 235, 33) 18%, rgb(135, 14, 187) 39%, rgb(228, 54, 152) 61%, rgb(0, 255, 239) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+#body_contact #main_contact #carouselExampleIndicators .img_carousel2 {
+  height: 450px;
+}
+#body_contact .footer_degrant {
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(194, 196, 62)), color-stop(39%, rgb(135, 14, 187)), color-stop(61%, rgb(228, 153, 54)));
+  background-image: linear-gradient(90deg, rgb(194, 196, 62) 18%, rgb(135, 14, 187) 39%, rgb(228, 153, 54) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

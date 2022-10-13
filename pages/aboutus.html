@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+            name="description"
+            content="Hype Cvlt colective dedication, vision and goals"
+        />
+    <meta
+            name="keywords"
+            content="Promote, parties, sharing, culture, styles"
+        />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,51 +23,79 @@
       crossorigin="anonymous"
     />
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/estilo.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body class="container">
+  <body class="container" id="body_aboutus1">
     <header class="row">
-      <div class="col">
+      <div class="col" id="logo_nav2">
         <img src="../images/logo_hype.png" class="logo_navbar" />
       </div>
-      <nav class="col">
-        <ul>
-          <li class="menu"><a href="../index.html">HOME</a></li>
-          <li class="menu"><a href="./aboutus.html">ABOUT US</a></li>
-          <li class="menu"><a href="./djs.html">DJS!</a></li>
-          <li class="menu"><a href="./contacto.html">CONTACT US</a></li>
-          <li class="menu"><a href="./bepart.html">BE A SUPORTER</a></li>
-        </ul>
-      </nav>
+      <nav class="navbar navbar-expand-lg col navbar-dark" id="nav2">
+        <div class="container-fluid nav_bar_style">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="collapse navbar-collapse"
+                id="navbarNavAltMarkup"
+            >
+                <div class="navbar-nav">
+                    <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="../index.html"
+                        >Home</a
+                    >
+                    <a class="nav-link nav_color" href="./aboutus.html"
+                        >About us</a
+                    >
+                    <a class="nav-link" href="./djs.html">DJs</a>
+                    <a class="nav-link" href="./contacto.html"
+                        >Contact us</a
+                    >
+                    <a class="nav-link" href="./bepart.html"
+                        >Join us!</a
+                    >
+                </div>
+            </div>
+        </div>
+    </nav>
     </header>
-    <main class="container">
-      <div class="row">
-        <section class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-          <div class="parrafo">
-            <h2>Who are we?</h2>
-            <p>
+    <main class="container" id="main_aboutus">
+      <div class="row" id="text_aboutus">
+        <section class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12" id="section1_aboutus">
+          <div class="parrafo" id="parrafo_aboutus">
+            <h2 class="tittle_style">Who are we?</h2>
+            <p class="animate__animated animate__pulse texto_trasparente3">
               Created in Medellin, Colombia. Hype Cvlt borned as a project from
               many DJs that believe in giving more than taking. For us music is
               something to be shared! So we make a lot of free events that
               anyone can get in, by doing so, we promote great music and
               culture.
             </p>
-            <p class="texto_trasparente2">
+            <p class="texto_trasparente1 animate__animated animate__backInDown text_1">
               We have a court of DJs with differents styles, that's what makes
               our colective so especial, our differences!
             </p>
           </div>
         </section>
-        <!-- el siguiente video no pertenece al colectivo, es meramente demostrativo -->
-        <section class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-          <iframe
-            width="560"
-            height="450"
+        <section class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12" id="section2_aboutus">
+          <iframe 
             src="https://www.youtube.com/embed/1vFapi01LOo"
             title="Sicklungs remix"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            class="video_aboutus"
           ></iframe>
           <div
             id="carouselExampleIndicators"
@@ -88,28 +128,28 @@
               <div class="carousel-item active">
                 <img
                   src="../images/hype4.png"
-                  class="d-block w-100"
+                  class="d-block w-100 img_carousel2"
                   alt="Fiesta de Hype club en Antioquia"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../images/hype2.png"
-                  class="d-block w-100"
+                  class="d-block w-100 img_carousel2"
                   alt="Invitados en evento de Medellin"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../images/fiestafoto.png"
-                  class="d-block w-100"
+                  class="d-block w-100 img_carousel2"
                   alt="gente celebrando en fiesta"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   src="../images/hype 1.png"
-                  class="d-block w-100"
+                  class="d-block w-100 img_carousel2"
                   alt="Djs mezclando en vivo"
                 />
               </div>
@@ -138,9 +178,6 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
-          <!-- <img class="img_aboutus" src="../images/hype4.png" alt="party4" />
-          <img class="img_aboutus" src="../images/hype2.png" alt="party2" /> -->
         </section>
       </div>
     </main>
@@ -162,3 +199,6 @@
     ></script>
   </body>
 </html>
+
+
+
